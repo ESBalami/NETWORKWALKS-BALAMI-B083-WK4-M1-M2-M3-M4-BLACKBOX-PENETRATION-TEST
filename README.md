@@ -55,8 +55,8 @@ Username: admin' --
 
 The three PDFs retrieved from the Patient Portal were password-protected. All three were cracked using `pdfcrack` against the `rockyou.txt` wordlist:
 
-| #|| File | Patient | Lab Ref |
-|---|---|---|---|
+# | File | Patient | Lab Ref |
+|---|---|---|
 | patient_report_1.pdf | Sipho Dlamini | LR-2024-1187 |
 | patient_report_2.pdf | Priya Reddy | LR-2024-1192 |
 | patient_report_3.pdf | Emily Thompson | LR-2024-1205 |
