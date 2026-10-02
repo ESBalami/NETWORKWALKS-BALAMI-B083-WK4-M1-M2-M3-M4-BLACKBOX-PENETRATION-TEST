@@ -55,11 +55,11 @@ Username: admin' --
 
 The three PDFs retrieved from the Patient Portal were password-protected. All three were cracked using `pdfcrack` against the `rockyou.txt` wordlist:
 
-| File | Patient | Password | Lab Ref |
+**| File | Patient | Lab Ref |**
 |---|---|---|---|
-| patient_report_1.pdf | Sipho Dlamini | `123456` | LR-2024-1187 |
-| patient_report_2.pdf | Priya Reddy | `password` | LR-2024-1192 |
-| patient_report_3.pdf | Emily Thompson | `!@#$%^&` | LR-2024-1205 |
+| patient_report_1.pdf | Sipho Dlamini | LR-2024-1187 |
+| patient_report_2.pdf | Priya Reddy | LR-2024-1192 |
+| patient_report_3.pdf | Emily Thompson | LR-2024-1205 |
 
 Each report contains full pathology results tied to an identifiable patient (name, DOB, patient ID, referring doctor, and flagged abnormal results).
 
